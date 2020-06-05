@@ -100,7 +100,7 @@ for you to install, depending on your distribution).
 The following command illustrates how to build Panda3D with some common
 options:
 ```bash
-python makepanda/makepanda.py --everything --installer --no-egl --no-gles --no-gles2 --no-opencv
+python3 makepanda/makepanda.py --everything --installer --no-egl --no-gles --no-gles2 --no-opencv --threads 4
 ```
 
 You will probably see some warnings saying that it's unable to find several
